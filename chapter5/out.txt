@@ -1,0 +1,7 @@
+first file
+blue(sky)
+nice(day)
+second file
+yellow(sun)
+white(snow)
+end

@@ -1,0 +1,3 @@
+'second file'.
+yellow(sun).
+white(snow).

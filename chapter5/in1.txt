@@ -1,0 +1,3 @@
+'first file'.
+blue(sky).
+nice(day).
