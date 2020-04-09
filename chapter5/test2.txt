@@ -1,0 +1,6 @@
+nice(sky).
+blue(sun).
+red(fire).
+small(monster).
+orange(fruit).
+end.

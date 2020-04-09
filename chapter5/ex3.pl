@@ -1,6 +1,6 @@
 /* Exercise 3 */
 
-/* end_of_file is -1 */
+/* testa.txt, end_of_file is -1 */
 
 readWrite(X) :- X =\= 0, get(Z), write(Z), nl, readWrite(X-1).
 

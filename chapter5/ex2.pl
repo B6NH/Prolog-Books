@@ -1,5 +1,7 @@
 /* Exercise 2 */
 
+/* file1.pl -> file2.pl */
+
 process :-
   read(X),
   X \== end_of_file,
