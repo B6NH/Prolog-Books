@@ -1,7 +1,12 @@
 /* Exercise 2 */
 
-isValid(X) :-
-  X =\= 63, X =\= 10.
+isNewline(M) :- M == 10.
+isQuestion(M) :- M == 63.
+
+drop :-
+  get0(Z), (isNewline(Z) ; drop).
 
 readChars :-
-  get0(X), isValid(X), put(X), readChars.
+  get0(X), (isQuestion(X), drop, nl, ! ;
+            isNewline(X), nl, ! ;
+            put(X), readChars).

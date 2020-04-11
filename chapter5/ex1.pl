@@ -6,9 +6,6 @@
 ?- op(150,xfy,toLower).
 
 
-makeLower :-
-  get0(R), process R.
-
 isUpper(Z) :-
   Z > 64, Z < 91.
 
@@ -18,11 +15,11 @@ isLower(Z) :-
 toLower(Z,X) :-
   X is Z + 32.
 
+makeLower :-
+  get0(R), process R.
 
-process(10).
+process(10) :- nl.
 
-process(N) :-
-  N isUpper, N toLower L, put(L), makeLower.
-
-process(N) :-
-  N isLower, put(N), makeLower.
+process(X) :-
+  (X isUpper, X toLower L, put(L), makeLower ;
+   X isLower , put(X), makeLower), !.
