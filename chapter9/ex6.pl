@@ -1,10 +1,10 @@
 /* Exercise 6 */
 
-pred1(L1,L) :-
-  findall([A],member(A,L1),L).
+pred1(List,L) :-
+  findall([S],member(S,List),L).
 
-pred2(L1,L) :-
-  findall(pred(A,A),member(A,L1),L).
+pred2(List,L) :-
+  findall(pred(S,S),member(S,List),L).
 
-pred3(L1,L) :-
-  findall([element,A],member(A,L1),L).
+pred3(List,L) :-
+  findall(element(S),member(S,List),L).

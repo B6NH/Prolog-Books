@@ -1,4 +1,4 @@
 /* Exercise 5 */
 
-putlast(A,B,C) :-
-  append(B,[A],C).
+putlast(Item,List,C) :-
+  append(List,[Item],C).

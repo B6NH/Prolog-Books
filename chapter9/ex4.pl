@@ -1,3 +1,3 @@
 /* Exercise 4 */
 
-putfirst(A,B,[A|B]).
+putfirst(Item,List,[Item|List]).
