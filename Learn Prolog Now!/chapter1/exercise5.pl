@@ -1,10 +1,12 @@
 /* Exercise 5 */
 
 wizard(ron).
-wizard(X) :- hasBroom(X), hasWand(X).
+wizard(X) :-
+  hasBroom(X), hasWand(X).
 hasWand(harry).
 quidditchPlayer(harry).
-hasBroom(X) :- quidditchPlayer(X).
+hasBroom(X) :-
+  quidditchPlayer(X).
 
 /*
 
@@ -15,5 +17,5 @@ hasBroom(X) :- quidditchPlayer(X).
   5. wizard(harry) - true
   6. wizard(Y) - ron, harry
   7. witch(Y) - error
-  
+
 */
