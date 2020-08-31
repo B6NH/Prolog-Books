@@ -1,2 +1,4 @@
-# Prolog-Book
-Logic Programming with Prolog - Exercises
+# Prolog-Books
+Prolog Exercises from 2 books:
+* Learn Prolog Now!
+* Logic Programming with Prolog
