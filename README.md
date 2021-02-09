@@ -1,6 +1,4 @@
-# Prolog-Books
-
-![Logo](https://i.imgur.com/xRbWBdb.png)
+# ![Prolog-Books](https://i.imgur.com/WZGx6tU.png)
 
 Prolog Exercises from 2 books:
 * [Learn Prolog Now!](Learn%20Prolog%20Now!)
